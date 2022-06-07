@@ -6,7 +6,7 @@ import tushare as ts
 class dataapi(object):
     def __init__(self):
         # 初始化pro接口
-        self.pro = ts.pro_api('ca1c27e044c774c62f888a81298e7f51fc0743096d4c81168bc473f2')
+        self.pro = ts.pro_api('**********************************')
 
     def stock_basic(self):
         df = self.pro.stock_basic(**{
