@@ -9,7 +9,7 @@ Base = mapper_registry.generate_base()
 
 class db(object):
     def __init__(self):
-        self.databaseDriver = 'mysql+pymysql://root:syzyjy123456@localhost:3306/stock?charset=utf8'
+        self.databaseDriver = 'mysql+pymysql://root:**********@localhost:3306/stock?charset=utf8'
 
     def content(self):
         try:
